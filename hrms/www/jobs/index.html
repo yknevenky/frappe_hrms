@@ -2,15 +2,19 @@
 {% block title %} {{ _("Job Openings") }} {% endblock title %}
 
 {% block header %}
-<div class="mb-10">
-	<p>Hi, I am Ashwin P, the founders office of AssetPlus hadnling strategy & new intiatives at Assetplus. I am personally reaching out to connect with talented folks from various domains across all roles. If you have an urge to solve hard problems in life and want to make a difference, please reach out to me at <a href="https://www.linkedin.com/in/ashwin-ponnusamy/">LinkedIn.</a></p>
-</div>
-<h3 class="mt-0 mb-5 jobs-page">{{ _("Job Openings") }}</h3>
+<h3 class="mt-0 mb-10 jobs-page">{{ _("Job Openings") }}</h3>
 {% endblock header %}
 
 {% block page_content %}
+<meta
+	id="data"
+	data-filters="{{ all_filters }}"
+	data-no-of-pages="{{ no_of_pages }}"
+/>
 
-
+<div>
+	<p>Hi, I am Ashwin P, the founders office of AssetPlus hadnling strategy & new intiatives at Assetplus. I am personally reaching out to connect with talented folks from various domains across all roles. If you have an urge to solve hard problems in life and want to make a difference, please reach out to me at <a href="https://www.linkedin.com/in/ashwin-ponnusamy/">LinkedIn.</a></p>
+</div>
 
 
 <div>
@@ -265,7 +269,5 @@
 	</div>
 	{% endif %}
 </div>
-
-	
 
 {% endblock page_content %}
