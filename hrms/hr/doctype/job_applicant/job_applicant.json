@@ -242,7 +242,7 @@
   },
   {
    "fieldname": "minimum_ctc_details",
-   "fieldtype": "Float",
+   "fieldtype": "Int",
    "label": "Minimum CTC details"
   },
   {
@@ -255,7 +255,7 @@
  "idx": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-24 15:29:10.632711",
+ "modified": "2025-01-25 11:36:54.622504",
  "modified_by": "Administrator",
  "module": "HR",
  "name": "Job Applicant",
